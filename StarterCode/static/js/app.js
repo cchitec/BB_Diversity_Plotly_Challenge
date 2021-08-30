@@ -5,7 +5,7 @@ var demographics = d3.select("#sample-metadata");
 var barChart = d3.select("#bar");
 var bubbleChart = d3.select("#bubble");
 var guageChart = d3.select("#gauge");
-var samplejson = d3.json("../Resources/samples.json");
+var samplejson = d3.json("samples.json");
 
 // Dropdown menu
 
