@@ -1,7 +1,7 @@
 // Necessary variables
 
 var demographics = d3.select("#sample-metadata");
-
+var selectdataset = d3.select("#selDataset");
 var barChart = d3.select("#bar");
 var bubbleChart = d3.select("#bubble");
 var guageChart = d3.select("#gauge");
@@ -16,7 +16,7 @@ function init() {
     samplejson.then((data) => {
 
         data.names.forEach((name) => {
-            var option = seldataset.append("option");
+            var option = selectdataset.append("option");
             option.text(name).property('value', name);
         });
     });
