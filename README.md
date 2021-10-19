@@ -9,9 +9,13 @@ The dashboard includes a dropdown menu to select which sample to plot, a scatter
 # Engineered via
 
 Javascript
+
 Plotly
+
 D3
+
 HTML
+
 CSS
 
 # Deployment
